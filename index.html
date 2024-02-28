@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Plugins jQuery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header>
+        <div class="cont    ainer">
+            <h2>Formulário Plugins jQuery</h2>
+            <form id="form-plugin">
+                <div class="form-campo">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" id="nome-completo" name="nome">
+                    <p class="error-message-nome">
+                        O nome precisa estar completo
+                    </p>
+                </div>
+                <div class="form-campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </div>
+                <div class="form-campo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone">
+                </div>
+                <div class="form-campo">
+                    <label for="cpf">CPF:</label>
+                    <input id="cpf" name="cpf">
+                </div>
+                <div class="form-campo">
+                    <label for="endereco">Endereço completo:</label>
+                    <input id="endereco" name="endereco">
+                </div>
+                <div class="form-campo">
+                    <label for="cep">CEP:</label>
+                    <input id="cep" name="cep">
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </header>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>
+
+
